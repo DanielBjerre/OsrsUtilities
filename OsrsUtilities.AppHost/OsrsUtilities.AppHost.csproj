@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.1" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>b4d494fd-27f3-431f-9836-a9103975f29e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OsrsUtilities.ApiService\OsrsUtilities.ApiService.csproj" />
+    <ProjectReference Include="..\OsrsUtilities.GroupService\OsrsUtilities.GroupService.csproj" />
+    <ProjectReference Include="..\OsrsUtilities.MigrationService\OsrsUtilities.Group.MigrationService.csproj" />
+    <ProjectReference Include="..\OsrsUtilities.Snapshot.MigrationService\OsrsUtilities.Snapshot.MigrationService.csproj" />
+    <ProjectReference Include="..\OsrsUtilities.SnapshotService\OsrsUtilities.Snapshot.Service.csproj" />
+    <ProjectReference Include="..\OsrsUtilities.Web\OsrsUtilities.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.1" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="9.4.1" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="9.4.2" />
+  </ItemGroup>
+
+</Project>
