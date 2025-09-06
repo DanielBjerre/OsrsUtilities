@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Groups/">
+    <Project Path="OsrsUtilities.Groups.MigrationService/OsrsUtilities.Groups.MigrationService.csproj" />
+    <Project Path="OsrsUtilities.Groups.Contracts/OsrsUtilities.Groups.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/Snapshots/"> 
+
+  </Folder>
+  <Project Path="OsrsUtilities.ApiService/OsrsUtilities.ApiService.csproj" />
+  <Project Path="OsrsUtilities.AppHost/OsrsUtilities.AppHost.csproj" />
+  <Project Path="OsrsUtilities.Groups.Service/OsrsUtilities.Groups.Service.csproj" />
+  <Project Path="OsrsUtilities.ServiceDefaults/OsrsUtilities.ServiceDefaults.csproj" />
+  <Project Path="OsrsUtilities.Snapshots.Contracts/OsrsUtilities.Snapshots.Contracts.csproj" />
+  <Project Path="OsrsUtilities.Snapshots.MigrationService/OsrsUtilities.Snapshots.MigrationService.csproj" />
+  <Project Path="OsrsUtilities.Snapshots.Service/OsrsUtilities.Snapshots.Service.csproj" />
+  <Project Path="OsrsUtilities.Tests/OsrsUtilities.Tests.csproj" />
+  <Project Path="OsrsUtilities.Web/OsrsUtilities.Web.csproj" />
+</Solution>
