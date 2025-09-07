@@ -4,12 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-OsrsUtilities.Snapshot.MigrationService-3a0abc01-e26a-485f-b357-ba87913edf7b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OsrsUtilities.ServiceDefaults\OsrsUtilities.ServiceDefaults.csproj" />

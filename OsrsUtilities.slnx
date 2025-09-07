@@ -1,18 +1,19 @@
 <Solution>
   <Folder Name="/Groups/">
-    <Project Path="OsrsUtilities.Groups.MigrationService/OsrsUtilities.Groups.MigrationService.csproj" />
     <Project Path="OsrsUtilities.Groups.Contracts/OsrsUtilities.Groups.Contracts.csproj" />
+    <Project Path="OsrsUtilities.Groups.MigrationService/OsrsUtilities.Groups.MigrationService.csproj" />
+    <Project Path="OsrsUtilities.Groups.Service/OsrsUtilities.Groups.Service.csproj" />
   </Folder>
-  <Folder Name="/Snapshots/"> 
-
+  <Folder Name="/Snapshots/">
+    <Project Path="OsrsUtilities.Snapshots.Contracts/OsrsUtilities.Snapshots.Contracts.csproj" />
+    <Project Path="OsrsUtilities.Snapshots.Data/OsrsUtilities.Snapshots.Data.csproj" Id="7bde17f5-544f-4908-853d-ade4fc15478e" />
+    <Project Path="OsrsUtilities.Snapshots.MigrationService/OsrsUtilities.Snapshots.MigrationService.csproj" />
+    <Project Path="OsrsUtilities.Snapshots.Service/OsrsUtilities.Snapshots.Service.csproj" />
   </Folder>
   <Project Path="OsrsUtilities.ApiService/OsrsUtilities.ApiService.csproj" />
   <Project Path="OsrsUtilities.AppHost/OsrsUtilities.AppHost.csproj" />
-  <Project Path="OsrsUtilities.Groups.Service/OsrsUtilities.Groups.Service.csproj" />
+  <Project Path="OsrsUtilities.MigrationServiceDefaults/OsrsUtilities.MigrationServiceDefaults.csproj" Id="e8407545-3456-4aae-b5dc-0781f65b4876" />
   <Project Path="OsrsUtilities.ServiceDefaults/OsrsUtilities.ServiceDefaults.csproj" />
-  <Project Path="OsrsUtilities.Snapshots.Contracts/OsrsUtilities.Snapshots.Contracts.csproj" />
-  <Project Path="OsrsUtilities.Snapshots.MigrationService/OsrsUtilities.Snapshots.MigrationService.csproj" />
-  <Project Path="OsrsUtilities.Snapshots.Service/OsrsUtilities.Snapshots.Service.csproj" />
   <Project Path="OsrsUtilities.Tests/OsrsUtilities.Tests.csproj" />
   <Project Path="OsrsUtilities.Web/OsrsUtilities.Web.csproj" />
 </Solution>
